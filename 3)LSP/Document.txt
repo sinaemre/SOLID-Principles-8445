@@ -1,0 +1,3 @@
+﻿Liskov Substitution Principle
+
+Bu ilke bize türetilmiş sınıfların ata sınıflarıyla yer değiştirebilir olmasını söylemektedir. Bir başka değiş ile ata sınıfların herhangi biri alt sınıfın yerine geçebilir şekilde dizayn edilmelidir. Örnek vermek gerekirse bir gemi kaptanı ve oğlunu düşünelim. Gemi kaptanının gemiyi sevk ve idare edebilmesi için bazı yeteneklere sahip olması gerekmektedir. Bu gemi kaptanını oğlu kaptan olacaksa bu yetenekleri kazanması gerekir ve bu senaryo LSP'ye uygundur. Lakin oğlu boksör olmak istiyorsa kaptanlık görevini icra ederken kullanacağı yeteneklere ihtiyacı olmayacaktır, böylelikle ilk senaryodaki ata sınıf ile alt sınıf arasındaki yeteneklerin geçişkenliği kırılmış ve LSP ilkesine uyulmamış olur.
