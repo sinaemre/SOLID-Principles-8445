@@ -1,0 +1,3 @@
+﻿Interface Segregation Principle
+
+Bu prensibi ortaya atan arkadaş, alt sınıfların üst sınıflardan gereksiz yetenekleri kalıtım yoluyla almamasını istiyor. Bir başka değişle herhangi bir concrete bir sınıf kendisiyle ilgisi olmayan interfacelerden yetenek almamalıdır. Bu ilkeli SRP ve LSP ile birlikte düşünmekte fayda vardır. Bu prensip şişman interface'lerden hoşlanmaz. Yetenekler ile şişirilmiş bir arayüz alt sınıfların gereksiz birçok yetenek almasına sebebiyet verir. Böylelikle bu prensibe ters düşmüş olur. 
